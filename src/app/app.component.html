@@ -1,0 +1,28 @@
+<p>The hero's birthday is{{username|uppercase}}</p>
+<hr>
+<h1>Date Pipe</h1>
+<b>{{todaydate| date:'d/m/y'}}</b><br>
+<b>{{todaydate| date:'shortTime'}}</b>
+<hr>
+<h1>Slice pipe</h1>
+<b>{{months|slice:1:4}}</b>
+<hr>
+<h1>Currency Pipe</h1>
+<b>{{6589.23 | currency:"USD"}}</b><br>
+<b>{{6589.23 | currency:"USD":true}}</b>
+<hr>
+<h1>Json Pipe</h1>
+<b>{{jsonval|json}}</b>
+<hr>
+<h1>Percent Pipe</h1>
+<b>{{00.54565|percent}}</b>
+<hr>
+<h1>Decimal Pipe</h1>
+<b>{{454.78787814 | number:'3.4-4'}}</b>
+<hr>
+<app-multiple></app-multiple>
+<hr>
+<app-squaree></app-squaree>
+<hr>
+
+
